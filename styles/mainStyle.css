@@ -1,0 +1,61 @@
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --colorDarkMain: #484349;
+    --colorLightMain: #F7F0F0;
+    --colorAccent1: #007C77;
+    --colorAccent2: #BD632F;
+    --colorAccent3: #D8973C;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F7F0F0;
+}
+
+.navDiv {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    background-color: var(--colorAccent1);
+    border-radius: 8px;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navDiv ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navDiv ul li {
+    color: var(--colorLightMain);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.userArea {
+    background-color: var(--colorLightMain);
+    padding: 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#li2 {
+    color: var(--colorDarkMain);
+    color: #484349;
+    padding: 10px;
+}
+.subContainerLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
