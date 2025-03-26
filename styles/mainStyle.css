@@ -281,3 +281,35 @@ body {
   max-width: 20%;
   border-radius: 8px;
 }
+
+/* Estilos para la página Acerca de */
+.teamContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.teamMember {
+  text-align: center;
+  width: 250px;
+}
+
+.teamMember img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.teamMember h2 {
+  font-size: 1.2rem;
+  color: var(--colorDarkMain);
+  margin-bottom: 10px;
+}
+
+.teamMember p {
+  font-size: 1rem;
+  color: var(--colorAccent1);
+}
