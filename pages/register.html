@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - OpenMarket</title>
+  <link rel="stylesheet" href="/styles/mainStyle.css">
+</head>
+<body>
+  <div class="navDiv">
+    <ul>
+      <li><b>OpenMarket</b></li>
+      <li><a href="inicio.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="patrocinados.html">Patrocinados</a></li>
+      <li><a href="por_categoria.html">Por Categoria</a></li>
+        <button id="registro-btn"><a href="register.html">Registro</a></button>
+    </ul>
+  </div>
+  <div class="mainContainer">
+    <h1>Registro</h1>
+    <p>Complete el formulario para registrarse.</p>
+    <form id="registro-formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br><br>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido"><br><br>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono"><br><br>
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion"><br><br>
+      <label for="ciudad">Ciudad:</label>
+      <input type="text" id="ciudad" name="ciudad"><br><br>
+      <label for="pais">País:</label>
+      <input type="text" id="pais" name="pais"><br><br>
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" id="contraseña" name="contraseña"><br><br>
+      <label for="confirmar_contraseña">Confirmar contraseña:</label>
+      <input type="password" id="confirmar_contraseña" name="confirmar_contraseña"><br><br>
+      <button id="enviar-registro">Enviar</button>
+    </form>
+  </div>
+  <div class="mainFooter">
+    <div class="footerNav">
+      <ul>
+        <li><a href="#">Acerca De</a></li>
+        <li><a href="#">Enviar Comentarios</a></li>
+        <li><a href="#">Politica de Privacidad</a></li>
+        <li><a href="#">Terminos de Uso</a></li>
+        <li><a href="#">Tratamiento de Datos</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="/scripts/registerScript.js"></script>
+</body>
+</html>

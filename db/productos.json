@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "nombre": "Teclado Mecánico RGB",
+      "descripcion_corta": "Teclado mecánico con iluminación RGB y switches intercambiables.",
+      "ruta_imagen": "/imgs/placeholder.png",
+      "precio": 59.99,
+      "patrocinado": false
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Gamer Inalámbrico",
+      "descripcion_corta": "Mouse ergonómico con sensor de alta precisión y batería de larga duración.",
+      "ruta_imagen": "/imgs/placeholder.png",
+      "precio": 39.99,
+      "patrocinado": true
+    },
+    {
+      "id": 3,
+      "nombre": "Monitor 144Hz 24''",
+      "descripcion_corta": "Monitor Full HD con 144Hz de tasa de refresco y 1ms de respuesta.",
+      "ruta_imagen": "/imgs/placeholder.png",
+      "precio": 199.99,
+      "patrocinado": true
+    },
+    {
+      "id": 4,
+      "nombre": "Auriculares Inalámbricos",
+      "descripcion_corta": "Auriculares con cancelación de ruido y sonido envolvente.",
+      "ruta_imagen": "/imgs/placeholder.png",
+      "precio": 79.99,
+      "patrocinado": false
+    }
+  ]
+  
