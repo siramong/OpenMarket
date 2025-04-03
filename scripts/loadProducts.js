@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         // Seleccionar el contenedor de productos y limpiar su contenido previo
         const productContainer = document.querySelector(".productCards");
-        productContainer.innerHTML = "";
 
         // Generar y agregar tarjetas de productos al contenedor
         productos.forEach(producto => {

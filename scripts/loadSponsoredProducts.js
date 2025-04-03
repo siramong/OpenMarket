@@ -8,15 +8,9 @@ document.addEventListener("DOMContentLoaded", async function() {
         if (!Array.isArray(productos)) throw new Error("El JSON no es un array de productos");
 
         const productContainer = document.querySelector(".productCards");
-        productContainer.innerHTML = ""; // Limpiar productos estáticos
 
         // Filtrar productos patrocinados
         const patrocinados = productos.filter(producto => producto.patrocinado);
-
-        if (patrocinados.length === 0) {
-            productContainer.innerHTML = "<p>No hay productos patrocinados disponibles.</p>";
-            return;
-        }
 
         patrocinados.forEach(producto => {
             const productCard = document.createElement("div");
