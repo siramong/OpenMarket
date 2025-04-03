@@ -1,35 +1,42 @@
 [
-    {
+  {
       "id": 1,
-      "nombre": "Teclado Mecánico RGB",
-      "descripcion_corta": "Teclado mecánico con iluminación RGB y switches intercambiables.",
-      "ruta_imagen": "/imgs/placeholder.png",
-      "precio": 59.99,
-      "patrocinado": false
-    },
-    {
+      "nombre": "Taza de Cerámica Personalizada",
+      "descripcion_corta": "Taza de cerámica con estampado resistente al calor.",
+      "ruta_imagen": "/imgs/productsimgs/taza.png",
+      "precio": 8,
+      "patrocinado": true
+  },
+  {
       "id": 2,
-      "nombre": "Mouse Gamer Inalámbrico",
-      "descripcion_corta": "Mouse ergonómico con sensor de alta precisión y batería de larga duración.",
-      "ruta_imagen": "/imgs/placeholder.png",
-      "precio": 39.99,
+      "nombre": "Termo Acero Inoxidable 500ml",
+      "descripcion_corta": "Termo térmico con estampado personalizado y tapa hermética.",
+      "ruta_imagen": "/imgs/productsimgs/botella.jpeg",
+      "precio": 12,
       "patrocinado": true
-    },
-    {
+  },
+  {
       "id": 3,
-      "nombre": "Monitor 144Hz 24''",
-      "descripcion_corta": "Monitor Full HD con 144Hz de tasa de refresco y 1ms de respuesta.",
-      "ruta_imagen": "/imgs/placeholder.png",
-      "precio": 199.99,
-      "patrocinado": true
-    },
-    {
-      "id": 4,
-      "nombre": "Auriculares Inalámbricos",
-      "descripcion_corta": "Auriculares con cancelación de ruido y sonido envolvente.",
-      "ruta_imagen": "/imgs/placeholder.png",
-      "precio": 79.99,
+      "nombre": "Camiseta Estampada Algodón",
+      "descripcion_corta": "Camiseta 100% algodón con diseño sublimado de alta calidad.",
+      "ruta_imagen": "/imgs/productsimgs/camiseta3.png",
+      "precio": 12,
       "patrocinado": false
-    }
-  ]
-  
+  },
+  {
+      "id": 4,
+      "nombre": "Chompa con Capucha Personalizada",
+      "descripcion_corta": "Chompa con capucha, bolsillos y estampado duradero.",
+      "ruta_imagen": "/imgs/productsimgs/sudadera1.png",
+      "precio": 25,
+      "patrocinado": true
+  },
+  {
+      "id": 5,
+      "nombre": "Buzo Deportivo Sublimado",
+      "descripcion_corta": "Buzo cómodo y ligero con diseño exclusivo en sublimado.",
+      "ruta_imagen": "/imgs/productsimgs/buzo2.png",
+      "precio": 20,
+      "patrocinado": true
+  }
+]

@@ -1,15 +1,18 @@
 document.addEventListener("DOMContentLoaded", async function() {
     try {
+        // Cargar el archivo JSON con los productos
         const response = await fetch("/db/productos.json");
         if (!response.ok) throw new Error("Error al cargar los productos");
 
+        // Convertir la respuesta en un array de productos
         const productos = await response.json();
-
         if (!Array.isArray(productos)) throw new Error("El JSON no es un array de productos");
 
+        // Seleccionar el contenedor de productos y limpiar su contenido previo
         const productContainer = document.querySelector(".productCards");
-        productContainer.innerHTML = ""; // Limpiar productos estáticos
+        productContainer.innerHTML = "";
 
+        // Generar y agregar tarjetas de productos al contenedor
         productos.forEach(producto => {
             const productCard = document.createElement("div");
             productCard.classList.add("productCard");
