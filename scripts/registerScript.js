@@ -25,8 +25,7 @@ enviarRegistroBtn.addEventListener('click', (e) => {
   } else if (contraseña !== confirmarContraseña) {
     alert('Las contraseñas no coinciden.');
   } else {
-    // Enviar los datos del formulario al servidor
-    // (aquí puedes agregar la lógica para enviar los datos al servidor)
     alert('Registro exitoso!');
+    localStorage.setItem('userName', nombre);
   }
 });
