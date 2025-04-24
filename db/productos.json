@@ -4,7 +4,7 @@
       "nombre": "Taza de Cerámica Personalizada",
       "descripcion_corta": "Taza de cerámica con estampado resistente al calor.",
       "ruta_imagen": "/imgs/productsimgs/taza.png",
-      "precio": 8,
+      "precio": 3.5,
       "patrocinado": true
   },
   {
